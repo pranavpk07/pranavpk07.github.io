@@ -97,7 +97,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.1 }}
           >
-            {[['6mo', 'Industry Exp'], ['2+yr', 'Hands-on'], ['10+', 'Projects']].map(([num, label]) => (
+            {[['6mo', 'Industry Exp'], ['2+yr', 'Hands-on'], ['5+', 'Projects']].map(([num, label]) => (
               <div className="stat-pill" key={label}>
                 <span className="stat-num">{num}</span>
                 <span className="stat-label">{label}</span>
